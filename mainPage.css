@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#pageName{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:lightskyblue;
+    text-align: center;
+    outline: 2px solid darkcyan;
+}
+#userInput{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right:20px;
+    border: 2px solid black;
+    flex: 25%;
+}
+#animationTitle{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right:20px;
+    border: 2px solid black;
+    flex: 35%;
+}
+#lunchInput{
+    flex:40%;
+    border: 2px solid black;
+    padding: 5px 20px 20px;
+    height: 100%;
+}
+#createUser{
+    display: inline-block;
+    width: 100%;
+}
+#lunchForm{
+    display: inline-block;
+}
+.label{
+    padding: 5px;
+}
+
+td{
+    padding:10px;
+    border: 1px solid black;
+}
+th {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding:10px;
+}
+#userTable{
+    display: inline-block;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#formResponse{
+    display: block;
+    text-align: center;
+}
+#userTitle{
+    text-decoration: underline 1pt; 
+}
+#lunchTitle{
+    text-decoration: underline 1pt; 
+}
+#container{
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
